@@ -6,7 +6,8 @@ module YtelApi
   # are configured in this class.
   class Configuration
     # The base Uri for API calls
-    @base_uri = 'https://api.message360.com/api/v3'
+    #@base_uri = 'https://api.message360.com/api/v3'
+    @base_uri = 'https://api.ytel.com/api/v3'
 
     # The username to use with basic authentication
     @basic_auth_user_name = 'TODO: Replace'
